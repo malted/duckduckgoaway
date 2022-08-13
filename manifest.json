@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "duckduckgoaway",
+    "version": "1.0",
+  
+    "description": "Styles lite.duckduckgo.com to look like the main site.",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://lite.duckduckgo.com/*"],
+        "js": ["src/ddga.js"]
+      }
+    ]
+  }
+  
